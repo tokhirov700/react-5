@@ -1,0 +1,347 @@
+@font-face {
+    font-family: "Rubik";
+    src: url(../fonts//Rubik-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "Oxanium";
+    src: url(../fonts/Oxanium-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: "SF Pro Text";
+    src: url(../fonts/SourceCodePro-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: "Poppins";
+    src: url(../fonts/Poppins-Italic.ttf);
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1440px;
+    display: flex;
+    gap: 70px;
+    border: 2px solid rgb(157, 150, 150);
+    border-radius: 30px;
+}
+.wrapper button{
+    width: 91px;
+    height: 37px;
+    border-radius: 16px;
+    padding: 7px 22px;
+    background-color: #FC8B40;
+    border: none;
+    color: #fff;
+    margin-top: 43px;
+    margin-left: 8px;
+}
+.card-content{
+    display: flex;
+    align-items: center;
+}
+.card-text{
+    display: flex;
+    margin-top: 43px;
+    gap: 40px;
+    margin-left: 16px;
+    font-family: "Rubik";
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #A0A8B1;
+}
+.card-image{
+    margin-left: 30px;
+    background-image: url(../images/BG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 923px;
+    height: 300px;
+}
+h1 {
+    font-family: "Rubik";
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 48px;
+    width: 494px;
+    height: 87px;
+    color: #fff;
+    padding-top: 64px;
+    margin-left: 30px;
+}
+button{
+    width: 160px;
+    height: 55px;
+    background-color: #FC8B40;
+    padding: 15px 29px;
+    color: #fff;
+    border: none;
+    font-family: "Rubik";
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 8px;
+    margin-left: 30px;
+}
+.card-item h3{
+    width: 200px;
+    font-family: "Rubik";
+    font-size: 24px;
+    font-weight: 600;
+
+    color: #261D56;
+    margin-left: 30px;
+}
+.card-item-image{
+    background-image: url(../images//bg\ \(1\).png);
+    width: 100%;
+    max-width: 180px;
+    min-height: 250px;
+    margin-left: 30px;
+    background-size: 100%;
+}
+.card-item-image p{
+    width: 100.71px;
+    height: 30px;
+    font-family: "Oxanium";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #fff;
+    padding-top: 170px;
+    margin-left: 13px;
+}
+.card-big-container{
+    display: flex;
+    gap: 0 20px;
+}
+.card-item-image img{
+    margin-left: 13px;
+}
+.card-item-image span{
+    color: #fff;
+    width: 125px;
+    font-family: "Oxanium";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 15px;
+}
+h6{
+    margin-left: 10px;
+    color: #fff;
+    font-family: "Oxanium";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 15px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-left: 4px;
+}
+.mini-card{
+    display: flex;  
+}
+.card-image-item{
+    background-image: url(../images/bg\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 180px;
+    min-height: 250px;
+    margin-left: 30px;
+    background-size: 100%;  
+}
+.card-mini{
+    display: flex;
+    margin-left: 13px;
+}
+.card-image-item p{
+    width: 139px;
+    height: 30px;
+    font-family: "Oxanium";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #fff;
+    padding-top: 170px;
+    margin-left: 13px;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-left: 4px;
+}
+span{
+    color: #fff;
+    font-family: "Oxanium";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 15px;
+}
+.card-big-containers{
+    width: 100%;
+    display: flex;
+    gap: 0 20px;
+}
+.card-list{
+    font-family: "Rubik";
+    font-size: 24px;
+    font-weight: 600;
+    color: #261D56;
+    margin-left: 29px;
+}
+.card-list-item{
+    width: 230px;
+    height: 88px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid #3c3838;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.card-list-item:hover{
+    background-color: #FC8B40;
+    border: none;
+}
+.card-list-item{
+    display: flex;
+}
+.card-list-item img{
+    width: 66px;
+    height: 66px;
+    border-radius: 10px;
+    padding-top: 11px;
+    padding-left: 9px;
+}
+.card-list-text{
+    padding-top: 15px;
+    padding-left: 9px;
+}
+.card-list-span{
+    color: #22283C;
+    font-family: "Rubik";
+    font-size: 15px;
+    font-weight: 500;
+}
+.card-list-span2{
+    color: #22283C;
+    display: flex;
+    flex-direction: column;
+    font-family: "Rubik";
+    font-size: 15px;
+    font-weight: 500;
+}
+.card-list-span3{
+    color: #22283C;
+    font-family: "SF Pro Text";
+    font-size: 12px;
+    font-weight: 400;
+}
+.card-list-span3 img{
+    width: 11px;
+    height: 12px;
+    text-align: center;
+}
+.card-star{
+    display: flex;
+    gap: 10px 0;
+    flex-direction: column;
+}
+.card-star2{
+    display: flex;
+    gap: 10px 0;
+    flex-direction: column;
+}
+.card-big-star{
+    display: flex;
+    padding-bottom: 39px;
+}
+.card-star3{
+    display: flex;
+    gap: 10px 0;
+    flex-direction: column;
+}
+.sidebar{
+    width: 326px;
+}
+.sidebar-img{
+    display: flex;
+    padding-right: 13px;
+    gap: 0px 14px;
+}
+.sidebar-text{
+    width: 110px;
+    height: 22px;
+}
+.sidebar-big{
+    display: flex;
+    padding: 50px 0px 0px 11px;
+}
+.sidebar-bell{
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+.sidebar-h4 > h4{
+    font-family: "Rubik";
+    font-size: 24px;
+    font-weight: 500;
+    color: #22283C;
+    padding: 32px 0px 0px 12px;
+}
+.sidebar-div{
+    width: 300px;
+    height: 75px;
+    background-color: #FC8B40;
+    margin-left: 11px;
+}
+.sidebar-text{
+    font-family: "Rubik";
+    font-size: 15px;
+    font-weight: 500;
+    color: #22283C;
+}
+.sidebar-text2{
+    font-family: "Poppins";
+    font-size: 12px;
+    font-weight: 500;
+    color: #9DA1B4;
+}
+.sidebar-divs{
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+    padding-left: 12px;
+    padding-top: 8px;
+}
+.sidebar-big-div{
+    gap: 15px 0px;
+}
+.sidebar-picture{
+    margin-top: 41px;
+    padding-left: 12px;
+}
+.sidebar-p1{
+    font-family: "Rubik";
+    font-size: 28px;
+    font-weight: 500;
+    color: #22283C;
+}
+.sidebar-p2{
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 500;
+    color: #9DA1B4;
+}
+.sidebar-text-p{
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+    color: #9DA1B4;
+}
+.btn {
+    width: 100% !important;
+    padding: 15px 78px;
+    margin: 0 !important;
+}
